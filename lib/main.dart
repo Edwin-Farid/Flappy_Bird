@@ -1,20 +1,10 @@
+import 'package:flame/game.dart';
+import 'package:flappy_bird/game/flappy_bird_game.dart';
 import 'package:flutter/material.dart';
 
+final game = FlappyBirdGame();
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  runApp(
+    GameWidget(game: game),
+  );
 }
