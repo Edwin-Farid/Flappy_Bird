@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:flame/game.dart';
 import 'package:flappy_bird/game/flappy_bird_game.dart';
 import 'package:flappy_bird/screens/game_over_screens.dart';
