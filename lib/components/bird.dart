@@ -47,6 +47,7 @@ class Bird extends SpriteGroupComponent<BirdMovement> with HasGameRef<FlappyBird
 
   void reset(){
     position = Vector2(50, gameRef.size.y / 2 - size.y / 2);
+    score = 0;
   }
 
   void gameOver(){
