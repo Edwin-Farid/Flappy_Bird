@@ -1,8 +1,8 @@
 import 'package:flame/components.dart';
 import 'package:flame/flame.dart';
-import 'package:flame/layers.dart';
 import 'package:flame/parallax.dart';
 import 'package:flappy_bird/game/assets.dart';
+import 'package:flappy_bird/game/configuration.dart';
 import 'package:flappy_bird/game/flappy_bird_game.dart';
 
 class Ground extends ParallaxComponent<FlappyBirdGame>{
