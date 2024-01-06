@@ -44,6 +44,7 @@ class Bird extends SpriteGroupComponent<BirdMovement> with HasGameRef<FlappyBird
   }
 
   void gameOver(){
+    gameRef.overlay.add('gameOver');
     gameRef.pauseEngine();
   }
 
