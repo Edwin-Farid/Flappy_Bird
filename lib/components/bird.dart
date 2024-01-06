@@ -54,7 +54,7 @@ class Bird extends SpriteGroupComponent<BirdMovement> with HasGameRef<FlappyBird
 
   void gameOver(){
     FlameAudio.play(Assets.collision);
-    gameRef.overlay.add('gameOver');
+    gameRef.overlays.add('gameOver');
     gameRef.pauseEngine();
     game.isHit = true;
   }
