@@ -3,7 +3,7 @@ import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import 'package:flappy_bird/game/configuration.dart';
 
-class FlappyBirdGame extends FlameGame with TapDetector {
+class FlappyBirdGame extends FlameGame with TapDetector, HasCollisionDetection {
   FlappyBirdGame();
 
   late Bird bird;
