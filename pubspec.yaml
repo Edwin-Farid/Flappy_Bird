@@ -11,11 +11,22 @@ dependencies:
   flame_audio: ^2.1.7
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/bird_upflap.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/bird_upflap.png"
+  image_path_ios: "assets/images/bird_upflap.png"
+  background_color_ios: "#FFFFFF"
+  remove_alpha_ios: true
 
 flutter:
   uses-material-design: true
@@ -23,3 +34,8 @@ flutter:
   assets:
     - assets/images/
     - assets/audio/
+
+  fonts:
+    - family: Game     
+      fonts:
+        - asset: assets/fonts/Game.ttf
