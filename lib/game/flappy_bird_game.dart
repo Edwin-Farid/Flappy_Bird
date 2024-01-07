@@ -1,6 +1,10 @@
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
 import 'package:flame/game.dart';
+import 'package:flappy_bird/components/backgound.dart';
+import 'package:flappy_bird/components/bird.dart';
+import 'package:flappy_bird/components/ground.dart';
+import 'package:flappy_bird/components/pipe_group.dart';
 import 'package:flappy_bird/game/configuration.dart';
 import 'package:flutter/material.dart';
 
